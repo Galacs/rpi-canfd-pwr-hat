@@ -7072,6 +7072,12 @@
 		(uuid "b44698db-80cd-4a67-b6bf-4e56aeab5058")
 	)
 	(junction
+		(at 59.69 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b57a908b-fccd-4c1f-9fc0-0cbc59208ff7")
+	)
+	(junction
 		(at 24.13 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7976,6 +7982,16 @@
 			(type default)
 		)
 		(uuid "36972cf4-86e1-48b5-b170-79fd98c1895d")
+	)
+	(wire
+		(pts
+			(xy 63.5 74.93) (xy 59.69 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37056f37-5cb7-4798-bb24-8053eefcef54")
 	)
 	(wire
 		(pts
@@ -8999,7 +9015,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 78.74) (xy 63.5 80.01)
+			(xy 63.5 74.93) (xy 63.5 80.01)
 		)
 		(stroke
 			(width 0)
@@ -9506,6 +9522,16 @@
 			(type default)
 		)
 		(uuid "b12e349e-d23b-455a-934d-5f8a96bc8850")
+	)
+	(wire
+		(pts
+			(xy 59.69 74.93) (xy 59.69 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d4df2a-5bea-4c57-94b9-babb8fbb4ae2")
 	)
 	(wire
 		(pts
@@ -17567,6 +17593,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 44.45 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e87d2ec-4f37-4b86-bf4a-8aaf86d11229")
+		(property "Reference" "#PWR087"
+			(at 44.45 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+Vbuck"
+			(at 43.688 166.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 44.45 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30471f23-aba3-4916-ab95-69ae9696903f")
+		)
+		(instances
+			(project "rpi-canfd-pwr-hat"
+				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 177.8 0)
 		(unit 1)
@@ -19010,83 +19113,6 @@
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 63.5 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8026b879-ca8b-49fa-95a2-e195e993d415")
-		(property "Reference" "#PWR024"
-			(at 63.5 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 67.31 76.962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 63.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e79a7015-37f1-437c-9886-50986f667376")
-		)
-		(instances
-			(project "rpi-canfd-pwr-hat"
-				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -23761,84 +23787,6 @@
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 44.45 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdc6afdd-0948-4b85-9e42-faf0f0b761f0")
-		(property "Reference" "#PWR015"
-			(at 44.45 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 43.942 166.116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 44.45 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92e46b67-4336-4e31-8364-8163ebd89ded")
-		)
-		(instances
-			(project "rpi-canfd-pwr-hat"
-				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
