@@ -10425,7 +10425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01e9b233-e80d-469d-99db-ebf89455d315")
-		(property "Reference" "R6"
+		(property "Reference" "R13"
 			(at 261.874 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10533,7 +10533,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R6")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10551,7 +10551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0451bb5a-4d67-441c-a1cf-4fd767a968d8")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR031"
 			(at 76.2 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10611,7 +10611,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR098")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10629,7 +10629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04ce10e0-0df6-44ec-8048-89f4ae582adc")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR046"
 			(at 113.03 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10690,7 +10690,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR076")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10788,7 +10788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a6760f4-68ad-4558-893f-0a5358c8d2ae")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR019"
 			(at 53.34 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10849,7 +10849,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR0102")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10867,7 +10867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aec5c0e-fe80-4d69-9e90-cf5a077b2f05")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR021"
 			(at 54.61 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10928,7 +10928,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR082")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10946,7 +10946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c1b4a5c-068e-4066-90fe-2a35682e2a42")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR030"
 			(at 73.66 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11007,7 +11007,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR085")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11025,7 +11025,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d30de3a-098e-491a-86f7-b35c91af64d9")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR014"
 			(at 43.18 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11085,7 +11085,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR096")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11102,7 +11102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1055f964-74a5-4716-84b9-80dd48028e4b")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 139.7 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11162,7 +11162,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -11180,7 +11180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "144afd4c-a3d4-442b-a215-2b4f18a963ea")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 92.71 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11286,7 +11286,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -11303,7 +11303,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15512cd4-1f62-42ab-a1ac-4570055b55d0")
-		(property "Reference" "C46"
+		(property "Reference" "C13"
 			(at 72.39 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11411,7 +11411,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C46")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11428,7 +11428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15536b68-2c11-4369-9d0b-6b17e7552c4c")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR054"
 			(at 151.13 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11488,7 +11488,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR051")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11506,7 +11506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15b06894-8811-40bd-83a1-f5ca7ed23955")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR022"
 			(at 55.88 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11567,7 +11567,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR0110")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11585,7 +11585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15e23d6e-cb69-4e45-a34a-e7113cca8927")
-		(property "Reference" "C25"
+		(property "Reference" "C11"
 			(at 60.198 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11693,7 +11693,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C25")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11711,7 +11711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1632ddeb-3fd6-4a9c-bc0c-db977079d245")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 57.785 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11841,7 +11841,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11859,7 +11859,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "199bf60f-d490-4354-a430-ec2cffbaee2a")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR047"
 			(at 123.19 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11919,7 +11919,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR088")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -11937,7 +11937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a92212c-6dcb-4295-b28e-39d833f51f5b")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR063"
 			(at 182.88 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11999,7 +11999,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR064")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -12017,7 +12017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ac3dcb0-5923-44df-ad04-7c60cc6c54b9")
-		(property "Reference" "U13"
+		(property "Reference" "U4"
 			(at 64.77 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12127,7 +12127,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "U13")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12144,7 +12144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d02a306-deca-40dd-b484-1e2c3c91b9b8")
-		(property "Reference" "C22"
+		(property "Reference" "C19"
 			(at 110.744 175.768 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12252,7 +12252,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C22")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -12270,7 +12270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d26e658-1e43-45f4-9b22-69386243cf73")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG01"
 			(at 27.94 106.045 0)
 			(hide yes)
 			(show_name no)
@@ -12331,7 +12331,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#FLG05")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -12349,7 +12349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f720b37-5c54-44fb-9893-d1e9ce185a86")
-		(property "Reference" "R18"
+		(property "Reference" "R10"
 			(at 94.488 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12457,7 +12457,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R18")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12474,7 +12474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20e537a2-e65e-45e8-a257-e1a562979ba3")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR064"
 			(at 190.5 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -12534,7 +12534,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR060")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -12552,7 +12552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "212b50e0-ba48-46e6-840a-5d9626e37463")
-		(property "Reference" "C33"
+		(property "Reference" "C16"
 			(at 86.868 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12660,7 +12660,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C33")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -12678,7 +12678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23c4320d-56a3-4556-8a71-0817a6d6abd6")
-		(property "Reference" "C27"
+		(property "Reference" "C31"
 			(at 270.51 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12784,7 +12784,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C27")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -12802,7 +12802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24e2beb7-ba7f-4a57-99f7-387d014a5204")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG03"
 			(at 123.19 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -12863,7 +12863,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#FLG06")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -12960,7 +12960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "297ac97b-3d6e-4a23-907c-8c31bb2340a9")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR07"
 			(at 26.67 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13021,7 +13021,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR078")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13039,7 +13039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a824770-d1ae-4a88-90a4-84581e0b79c2")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR023"
 			(at 62.23 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -13100,7 +13100,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR083")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13119,7 +13119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2debfa6a-61c8-4b27-abe8-cfc2226ad044")
-		(property "Reference" "R12"
+		(property "Reference" "R1"
 			(at 35.56 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13227,7 +13227,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R12")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13245,7 +13245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "334fd2e3-4b17-44b9-ba59-a903997445b1")
-		(property "Reference" "R21"
+		(property "Reference" "R7"
 			(at 72.644 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13351,7 +13351,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R21")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13369,7 +13369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "347e46de-65f0-4fbd-bcfb-a9a5b5201403")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 276.86 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13478,7 +13478,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13496,7 +13496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "349ba095-9379-4f7f-9784-731d1717878b")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR041"
 			(at 99.06 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13556,7 +13556,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR090")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13574,7 +13574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34a30c83-9ba4-43ac-b59b-bd48daa72caf")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR051"
 			(at 138.43 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13635,7 +13635,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR089")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -13653,7 +13653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3638ca6e-c8bc-4465-a69c-a0356db220eb")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR08"
 			(at 27.94 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13714,7 +13714,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR0104")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13732,7 +13732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36caf895-2837-423b-a84a-5c96706f5abc")
-		(property "Reference" "R19"
+		(property "Reference" "R6"
 			(at 58.42 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13838,7 +13838,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R19")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13855,7 +13855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ac6ac1d-6406-4ac8-bed6-20cacfa0b833")
-		(property "Reference" "C37"
+		(property "Reference" "C23"
 			(at 137.16 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13961,7 +13961,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C37")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -13978,7 +13978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c27dc32-2eba-47b1-8c45-d95f43915fcb")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR039"
 			(at 88.9 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14038,7 +14038,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR056")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14056,7 +14056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c5c3ea3-f9d8-4902-b620-2359b951b672")
-		(property "Reference" "R22"
+		(property "Reference" "R9"
 			(at 76.2 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14164,7 +14164,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R22")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -14260,7 +14260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3dee638b-48ec-4e80-b1b7-b259154fd464")
-		(property "Reference" "C34"
+		(property "Reference" "C27"
 			(at 169.672 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14368,7 +14368,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C34")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -14385,7 +14385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41cb1b67-1463-482f-9f22-802070ffb556")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR074"
 			(at 275.59 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14446,7 +14446,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR032")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -14463,7 +14463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41d346e8-affb-4311-bc81-5ffa96a5c246")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR01"
 			(at 20.32 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14523,7 +14523,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR095")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -14697,7 +14697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a18ef38-0905-479a-a23c-6c266cbe7b95")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR09"
 			(at 29.21 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14758,7 +14758,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR079")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14775,7 +14775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4efdaf51-233f-4213-80b1-fdd2d048542f")
-		(property "Reference" "C35"
+		(property "Reference" "C30"
 			(at 255.27 117.348 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14881,7 +14881,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C35")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -14899,7 +14899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f61ba2a-006c-4508-8ad9-eb0aa8859164")
-		(property "Reference" "C28"
+		(property "Reference" "C12"
 			(at 65.278 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15007,7 +15007,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C28")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15025,7 +15025,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fb10f6b-236b-4e3d-9009-5e59aba0d250")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR052"
 			(at 139.7 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -15087,7 +15087,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR094")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -15104,7 +15104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50bde75a-737c-4b4b-8c2d-e54da28c1153")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR045"
 			(at 107.95 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -15165,7 +15165,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR057")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -15183,7 +15183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "526e2af2-11b9-440c-b6fa-8007b562494b")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR029"
 			(at 73.66 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15244,7 +15244,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR0105")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15409,7 +15409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5506b77d-ca2e-4395-afbb-17a572a4691d")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR018"
 			(at 53.34 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15469,7 +15469,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR097")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15486,7 +15486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a15f787-d51f-4199-9039-7aa7a6fe5dcf")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 180.34 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15635,7 +15635,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "U3")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -15732,7 +15732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e48cdd3-da72-44e7-9935-633fc2e06ee6")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR069"
 			(at 231.14 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -15793,7 +15793,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR048")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -15810,7 +15810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61296e40-6349-426e-ab47-0081969f49df")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR034"
 			(at 77.47 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -15870,7 +15870,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR045")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15888,7 +15888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62b6b320-3887-4811-8d44-0df83f7d59ed")
-		(property "Reference" "TP8"
+		(property "Reference" "TP1"
 			(at 44.958 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15949,7 +15949,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "TP8")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -15966,7 +15966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "673012a8-9ca3-4500-9587-bb60ad3e7771")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 84.836 165.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16072,7 +16072,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -16089,7 +16089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "676b7e96-92b5-4c8e-991b-2d9b346baa06")
-		(property "Reference" "R13"
+		(property "Reference" "R3"
 			(at 49.53 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16195,7 +16195,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R13")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -16294,7 +16294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a0590e8-43ff-40f0-8d96-e642217b7aa0")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 51.435 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -16355,7 +16355,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -16372,7 +16372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a095e8f-16ae-4177-ac6f-078affec7094")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR032"
 			(at 77.47 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16432,7 +16432,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR062")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16449,7 +16449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ad75657-d7f5-482b-96a1-d3b23bed7efa")
-		(property "Reference" "NT2"
+		(property "Reference" "NT1"
 			(at 73.66 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16512,7 +16512,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "NT2")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -16530,7 +16530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b4ce28d-f9a0-4ccf-abb5-af50ae6c21a0")
-		(property "Reference" "C30"
+		(property "Reference" "C4"
 			(at 26.162 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16638,7 +16638,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C30")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -16655,7 +16655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b7973b3-e74c-4e72-9319-87fc918e921a")
-		(property "Reference" "TP4"
+		(property "Reference" "TP5"
 			(at 113.538 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16717,7 +16717,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -16734,7 +16734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b80ed69-4332-40c7-a5b7-d3141d566aa4")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR050"
 			(at 128.27 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -16794,7 +16794,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR058")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -16811,7 +16811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f8e2439-1bbe-4e0c-a762-89dfcfb6bef0")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR036"
 			(at 82.55 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -16872,7 +16872,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR050")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -16890,7 +16890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75030467-98a5-46db-ab34-d819cf44f55e")
-		(property "Reference" "R48"
+		(property "Reference" "R5"
 			(at 58.674 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16996,7 +16996,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R48")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -17014,7 +17014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "778145de-61b7-42a4-93fe-f8b7e60856a2")
-		(property "Reference" "C43"
+		(property "Reference" "C2"
 			(at 24.892 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17122,7 +17122,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C43")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -17140,7 +17140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77bde7aa-8955-4135-bfde-eac065ffb6c4")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR068"
 			(at 231.14 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17201,7 +17201,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR01")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -17218,7 +17218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77d81962-1570-49a5-8d01-91bb08a52036")
-		(property "Reference" "D26"
+		(property "Reference" "D3"
 			(at 58.928 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17337,7 +17337,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "D26")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -17354,7 +17354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "784b301c-e114-4169-b9ab-03f4f53f1700")
-		(property "Reference" "C10"
+		(property "Reference" "C5"
 			(at 27.94 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17462,7 +17462,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C10")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -17480,7 +17480,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79595160-36b1-49bc-9670-18858c046051")
-		(property "Reference" "C15"
+		(property "Reference" "C29"
 			(at 232.41 117.348 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17586,7 +17586,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C15")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -17603,7 +17603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ddd5a3a-4ba9-4e22-92e5-2677f2777bbd")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR04"
 			(at 21.59 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -17664,7 +17664,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR031")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -17682,7 +17682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e2980c4-a024-46ef-aff7-049ca5dcade5")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR044"
 			(at 102.87 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17744,7 +17744,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR075")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -17762,7 +17762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ea10dc7-6f13-4fb7-80e5-25d51a671e9b")
-		(property "Reference" "U12"
+		(property "Reference" "U1"
 			(at 31.75 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17872,7 +17872,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "U12")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17889,7 +17889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ebab0ec-5195-48c0-83e8-82171132d153")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR049"
 			(at 128.27 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17949,7 +17949,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR077")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -17967,7 +17967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ef4cda5-e508-422f-b549-19cafc65ea91")
-		(property "Reference" "D10"
+		(property "Reference" "D1"
 			(at 51.562 178.054 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18086,7 +18086,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "D10")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -18104,7 +18104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f59a510-3166-431c-8784-c0a762ac2df4")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR037"
 			(at 83.82 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -18165,7 +18165,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR087")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -18183,7 +18183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f713438-2541-4653-ace2-e97a6c8dda03")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR042"
 			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -18243,7 +18243,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR091")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -18260,7 +18260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8026b879-ca8b-49fa-95a2-e195e993d415")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR024"
 			(at 63.5 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -18320,7 +18320,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR061")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18337,7 +18337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83224461-2f22-4250-83c9-9f56d5ad1964")
-		(property "Reference" "U6"
+		(property "Reference" "U9"
 			(at 235.966 144.018 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18464,7 +18464,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "U6")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -18482,7 +18482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83913cb1-2bb1-4b6f-a433-2803f28ff097")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR066"
 			(at 200.66 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18543,7 +18543,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR04")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -18561,7 +18561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "868aa75b-fe44-468e-9517-7bc34207673c")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR067"
 			(at 229.87 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -18622,7 +18622,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR073")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -18641,7 +18641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "877737a1-4035-4e1d-b3ee-efed5cd59793")
-		(property "Reference" "R17"
+		(property "Reference" "R2"
 			(at 35.56 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18749,7 +18749,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R17")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -18895,7 +18895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89c88739-5858-4c64-a57e-02e7a8d31053")
-		(property "Reference" "C26"
+		(property "Reference" "C22"
 			(at 124.714 175.768 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19003,7 +19003,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C26")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -19020,7 +19020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ac3dddc-2c71-4b63-8605-37c3d4bca3ea")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR059"
 			(at 162.56 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -19081,7 +19081,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR069")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -19098,7 +19098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e5bfd6a-55e2-4b91-a3d7-52fda614525d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR038"
 			(at 85.09 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -19158,7 +19158,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR03")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -19175,7 +19175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90837f62-2e4e-444c-b36a-7083d9232dce")
-		(property "Reference" "C42"
+		(property "Reference" "C24"
 			(at 141.224 129.032 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19283,7 +19283,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C42")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -19300,7 +19300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "950cf4fa-f36e-4f8f-8355-94636fc86754")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR058"
 			(at 161.29 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -19362,7 +19362,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR054")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -19380,7 +19380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "965ca552-3bf8-458e-b1d3-df9f3012e3f2")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 270.51 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19489,7 +19489,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -19507,7 +19507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "969e8d42-399e-4238-9aab-7c2cf8c950f2")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR028"
 			(at 73.66 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -19568,7 +19568,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR0112")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -19587,7 +19587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9809a023-f3da-4cc1-bc3a-3097fd516c99")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR062"
 			(at 171.45 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19647,7 +19647,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR068")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -19665,7 +19665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "981d8ff0-912f-4ce7-9a5a-41939ec26953")
-		(property "Reference" "R14"
+		(property "Reference" "R8"
 			(at 76.2 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19773,7 +19773,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R14")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -19790,7 +19790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "995f8e93-54a7-415b-a00a-496d1888c0a9")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR027"
 			(at 69.85 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -19850,7 +19850,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR042")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -19867,7 +19867,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "99de7d69-fe4d-4da6-be79-bfc024877a17")
-		(property "Reference" "C31"
+		(property "Reference" "C8"
 			(at 45.466 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19932,7 +19932,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C31")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -19949,7 +19949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b777b7d-9f53-4cab-80aa-f45f2480436a")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR061"
 			(at 168.91 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -20009,7 +20009,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR053")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -20026,7 +20026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9eccdac8-772a-47ba-951f-e593baec801f")
-		(property "Reference" "C12"
+		(property "Reference" "C6"
 			(at 36.83 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20134,7 +20134,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C12")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -20151,7 +20151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a06d3326-c6d6-4b7f-bba9-60303c8e525f")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR057"
 			(at 152.4 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -20212,7 +20212,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR067")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -20229,7 +20229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2ca4765-206d-4a53-a4e9-01ddbb33296f")
-		(property "Reference" "U1"
+		(property "Reference" "U7"
 			(at 137.922 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20355,7 +20355,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "U1")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -20372,7 +20372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a40d9139-da4f-4925-8aa1-367eff0dc26d")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR060"
 			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -20433,7 +20433,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR070")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -20451,7 +20451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a459176e-3b72-4c6d-97ce-50b4fc3de577")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 231.14 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20630,7 +20630,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -20647,7 +20647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5d104da-46d9-4dca-864f-e834548b05a3")
-		(property "Reference" "C19"
+		(property "Reference" "C25"
 			(at 161.29 169.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20755,7 +20755,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C19")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -20772,7 +20772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5f19db3-eef4-418c-bd42-de2dfac745aa")
-		(property "Reference" "R16"
+		(property "Reference" "R4"
 			(at 55.118 183.134 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20880,7 +20880,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R16")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -20897,7 +20897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6957709-4099-4562-9b65-035621d359ab")
-		(property "Reference" "C24"
+		(property "Reference" "C21"
 			(at 118.364 175.768 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21005,7 +21005,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C24")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -21023,7 +21023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7367306-8f75-4f86-a1c8-7fef8502d664")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR06"
 			(at 24.13 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -21084,7 +21084,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR0106")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -21102,7 +21102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9f9bf3f-c6d1-4b3f-9391-740988bc3d78")
-		(property "Reference" "C17"
+		(property "Reference" "C3"
 			(at 20.32 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21210,7 +21210,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C17")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -21228,7 +21228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad0a4441-e588-4eb4-b5a0-799158dc5524")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR05"
 			(at 22.86 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -21289,7 +21289,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR0108")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -21307,7 +21307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad535c34-730d-496c-bc37-2084eaeeae90")
-		(property "Reference" "C20"
+		(property "Reference" "C18"
 			(at 105.918 158.242 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21415,7 +21415,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C20")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -21432,7 +21432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afcd527c-dbe8-40cb-9de0-4329f6fb56f6")
-		(property "Reference" "C23"
+		(property "Reference" "C26"
 			(at 154.686 153.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21540,7 +21540,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C23")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -21558,7 +21558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b14b89e5-0ec6-4d85-a3d8-d594172b39a1")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR040"
 			(at 99.06 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -21618,7 +21618,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR092")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -21636,7 +21636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b20d90dd-8078-4efe-b9ea-a3abe3710c49")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR026"
 			(at 67.31 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -21697,7 +21697,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR084")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -21714,7 +21714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4b63a0c-d118-4425-8b0c-d869aa973b1b")
-		(property "Reference" "TP9"
+		(property "Reference" "TP4"
 			(at 76.708 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21776,7 +21776,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "TP9")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -21793,7 +21793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5266340-adc8-49ef-9cd9-afd91df3f22d")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR056"
 			(at 157.48 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -21854,7 +21854,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR066")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -21871,7 +21871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b53b45e7-d38d-4aa6-a15d-a9f08dbcd153")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 92.456 167.894 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21979,7 +21979,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -21997,7 +21997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb3c7e87-fadb-41a2-b29c-ab505fe242d4")
-		(property "Reference" "C29"
+		(property "Reference" "C14"
 			(at 70.358 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22105,7 +22105,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C29")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -22123,7 +22123,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdb0d10c-79ef-49c6-ae8d-9c05a8b1f491")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 66.548 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22184,7 +22184,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -22349,7 +22349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1805575-be94-4093-bd25-486deda13d96")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 187.198 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22457,7 +22457,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R15")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -22475,7 +22475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2143d12-bce6-46d1-bbe0-27c431060d93")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 175.006 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22544,7 +22544,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -22561,7 +22561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c21a3cd1-1e31-4849-a668-8cfb2c7b8ae7")
-		(property "Reference" "D16"
+		(property "Reference" "D2"
 			(at 45.212 85.344 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22680,7 +22680,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "D16")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -22698,7 +22698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c505ab1e-01ca-4de4-8874-ea1fb51da694")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR025"
 			(at 64.77 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -22759,7 +22759,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR0111")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -22777,7 +22777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5c979c3-42eb-4890-bdcc-f9313240f6cf")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR017"
 			(at 48.26 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -22838,7 +22838,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR0103")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -22856,7 +22856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc6afdd-0948-4b85-9e42-faf0f0b761f0")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR015"
 			(at 44.45 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -22916,7 +22916,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR035")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -22933,7 +22933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d72f340f-29f4-46ed-a7d3-a68bba120a3c")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR033"
 			(at 77.47 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -22993,7 +22993,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR086")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -23010,7 +23010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8df7526-d6a2-4210-bb7b-835a246c3480")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR016"
 			(at 44.45 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -23071,7 +23071,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR033")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -23089,7 +23089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9d8e8bf-87ec-45b2-927f-c9d523c3b751")
-		(property "Reference" "C36"
+		(property "Reference" "C20"
 			(at 114.3 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23195,7 +23195,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C36")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -23212,7 +23212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "daeead7a-ed4d-46e4-9857-a0abbad360dd")
-		(property "Reference" "C32"
+		(property "Reference" "C10"
 			(at 57.658 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23320,7 +23320,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C32")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -23337,7 +23337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db1e64d9-57c9-4c9a-9244-71675884a918")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR070"
 			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -23397,7 +23397,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR049")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -23414,7 +23414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db5e7dc4-1664-4de2-a086-25897582e466")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR03"
 			(at 21.59 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -23474,7 +23474,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR063")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -23492,7 +23492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de8a8d2d-09c1-4561-b0ae-a0d25dd37400")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR013"
 			(at 41.91 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -23553,7 +23553,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR081")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -23571,7 +23571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1d4ed4d-54d9-4ea0-9e97-94bc3797f052")
-		(property "Reference" "R20"
+		(property "Reference" "R11"
 			(at 93.98 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23677,7 +23677,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "R20")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -23694,7 +23694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4f229d9-f173-4cd1-b36e-525c46d99c1f")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR035"
 			(at 77.47 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -23755,7 +23755,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR046")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -23772,7 +23772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb07939d-2d39-4405-881b-44ff7a06ced8")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 20.32 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23880,7 +23880,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -23898,7 +23898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebbe2c90-aec2-45c0-8c28-d2877864d6b2")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR011"
 			(at 38.1 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -23959,7 +23959,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR080")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -23977,7 +23977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec802129-d4ff-45d0-922c-961eef66669d")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR048"
 			(at 125.73 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -24039,7 +24039,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR074")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -24057,7 +24057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f036a44b-d13c-4cea-a7f8-5cf6446ffbb2")
-		(property "Reference" "TP7"
+		(property "Reference" "TP3"
 			(at 77.978 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24118,7 +24118,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "TP7")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -24135,7 +24135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0bc3d01-91f4-47e5-9045-6a81f15968fd")
-		(property "Reference" "C44"
+		(property "Reference" "C7"
 			(at 39.37 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24243,7 +24243,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C44")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -24260,7 +24260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1534329-4a8e-4507-bdbc-213396992607")
-		(property "Reference" "C8"
+		(property "Reference" "C1"
 			(at 22.86 179.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24368,7 +24368,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C8")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -24386,7 +24386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1719cff-d5f7-491f-988f-d4b5926400cb")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR043"
 			(at 99.06 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -24446,7 +24446,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR093")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -24463,7 +24463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f507245e-481a-4adf-872f-a0ca70c1e76a")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 131.826 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24637,7 +24637,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -24655,7 +24655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f54224c5-a348-4438-8f80-cc1447ca3d7a")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR010"
 			(at 31.75 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -24716,7 +24716,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR0107")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -24733,7 +24733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5cbfd0f-fe65-439d-ac02-b0352ffa7db0")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR020"
 			(at 53.34 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -24793,7 +24793,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR039")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -24810,7 +24810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7eeb1aa-2991-4f52-897b-137a38e04e17")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR073"
 			(at 265.43 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -24870,7 +24870,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR059")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -24887,7 +24887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9c53085-4756-4d50-9cce-a63d6b85735f")
-		(property "Reference" "C21"
+		(property "Reference" "C28"
 			(at 200.66 117.602 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24995,7 +24995,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C21")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -25013,7 +25013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa5a0f18-ad73-40f9-8f13-56b03e2ac6a8")
-		(property "Reference" "C45"
+		(property "Reference" "C9"
 			(at 57.912 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25121,7 +25121,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "C45")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -25219,7 +25219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffbd25de-2efa-4912-919b-c3272dc6bfba")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR012"
 			(at 40.64 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -25280,7 +25280,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "#PWR0109")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
