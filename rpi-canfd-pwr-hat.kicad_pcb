@@ -15766,7 +15766,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C22433320"
+		(property "JLCPCB Part #" "C30111221"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15792,7 +15792,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "TCAN3413DR"
+		(property "Manufacturer Part Number" "TCAN3413DDFR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
