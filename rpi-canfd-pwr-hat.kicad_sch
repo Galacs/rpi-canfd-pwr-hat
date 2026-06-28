@@ -6563,7 +6563,7 @@
 	)
 	(rectangle
 		(start 177.8 97.79)
-		(end 212.09 111.76)
+		(end 203.2 111.76)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7100,12 +7100,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c48c31cb-89c0-46fb-bf23-4b93ce14a025")
-	)
-	(junction
-		(at 207.01 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4b7a4ec-37af-42a0-a468-786d184f182a")
 	)
 	(junction
 		(at 76.2 30.48)
@@ -8065,7 +8059,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 106.68) (xy 207.01 107.95)
+			(xy 199.39 106.68) (xy 199.39 107.95)
 		)
 		(stroke
 			(width 0)
@@ -9215,16 +9209,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 105.41) (xy 207.01 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a633a59-f4e1-46ae-a009-90bf6b5c58d2")
-	)
-	(wire
-		(pts
 			(xy 114.3 104.14) (xy 113.03 104.14)
 		)
 		(stroke
@@ -9605,7 +9589,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 106.68) (xy 207.01 106.68)
+			(xy 191.77 106.68) (xy 199.39 106.68)
 		)
 		(stroke
 			(width 0)
@@ -12686,84 +12670,6 @@
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 199.39 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1bfe82fa-34a3-4192-8c4a-0270abee951f")
-		(property "Reference" "H3"
-			(at 194.564 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 203.2 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 199.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 199.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8bc909f3-e2e4-4245-bc46-00f19780e991")
-		)
-		(instances
-			(project "rpi-canfd-pwr-hat"
-				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -23794,7 +23700,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 207.01 102.87 0)
+		(at 199.39 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23803,8 +23709,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d517adba-e879-463c-9ea9-e43f9c4cfcb9")
-		(property "Reference" "H4"
-			(at 202.184 100.33 0)
+		(property "Reference" "H3"
+			(at 194.564 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23815,7 +23721,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 210.82 101.6 90)
+			(at 203.2 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23826,7 +23732,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
-			(at 207.01 102.87 0)
+			(at 199.39 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23837,7 +23743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 102.87 0)
+			(at 199.39 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23848,7 +23754,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 207.01 102.87 0)
+			(at 199.39 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23864,7 +23770,7 @@
 		(instances
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -25229,7 +25135,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 107.95 0)
+		(at 199.39 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25239,7 +25145,7 @@
 		(dnp no)
 		(uuid "edd91a10-fee5-4bfd-95ed-3f9067882518")
 		(property "Reference" "#PWR0130"
-			(at 207.01 114.3 0)
+			(at 199.39 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25250,7 +25156,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 206.756 112.522 0)
+			(at 199.136 112.522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25261,7 +25167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 107.95 0)
+			(at 199.39 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25272,7 +25178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 107.95 0)
+			(at 199.39 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25283,7 +25189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 107.95 0)
+			(at 199.39 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
