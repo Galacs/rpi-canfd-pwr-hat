@@ -4730,6 +4730,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_EEPROM:CAT24C256"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6439,6 +6562,18 @@
 		(uuid "b23479d8-8070-4c06-aecc-e4f8d4b95702")
 	)
 	(rectangle
+		(start 177.8 97.79)
+		(end 212.09 111.76)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f010e6c4-1046-4dec-94a1-0500b94570d0")
+	)
+	(rectangle
 		(start 15.24 96.52)
 		(end 92.71 151.13)
 		(stroke
@@ -6497,6 +6632,18 @@
 			)
 		)
 		(uuid "2964927a-dc46-4364-818c-ba7d19d8ba20")
+	)
+	(text "Mounting"
+		(exclude_from_sim no)
+		(at 186.69 109.474 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "2ebe0d82-debb-4057-ba7e-a8524f66a7a2")
 	)
 	(text "XC6206 1.8V LDO"
 		(exclude_from_sim no)
@@ -6631,6 +6778,12 @@
 		(uuid "d89012d5-40c9-4561-8c0a-31a5ee70a492")
 	)
 	(junction
+		(at 191.77 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00a9fabd-368c-4a7c-94a1-e7575bb23097")
+	)
+	(junction
 		(at 21.59 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6689,6 +6842,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31939d0f-2f24-4dbd-83be-30dc05c07406")
+	)
+	(junction
+		(at 199.39 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32b086a0-52f7-448d-850c-7bcdf98459f7")
 	)
 	(junction
 		(at 55.88 30.48)
@@ -6935,6 +7094,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c48c31cb-89c0-46fb-bf23-4b93ce14a025")
+	)
+	(junction
+		(at 207.01 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4b7a4ec-37af-42a0-a468-786d184f182a")
 	)
 	(junction
 		(at 76.2 30.48)
@@ -7454,6 +7619,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 106.68) (xy 191.77 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4c8c9c-5664-4010-a805-0bb1818cd979")
+	)
+	(wire
+		(pts
 			(xy 167.64 149.86) (xy 166.37 149.86)
 		)
 		(stroke
@@ -7874,6 +8049,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 106.68) (xy 207.01 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df45b39-cd80-41b8-b559-678aac2d1419")
+	)
+	(wire
+		(pts
 			(xy 182.88 31.75) (xy 182.88 39.37)
 		)
 		(stroke
@@ -8111,6 +8296,16 @@
 			(type default)
 		)
 		(uuid "4b843747-3cb8-4fa9-925a-b2a229cd760a")
+	)
+	(wire
+		(pts
+			(xy 199.39 106.68) (xy 199.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbddba1-d656-468d-a1ee-91689100172e")
 	)
 	(wire
 		(pts
@@ -8734,6 +8929,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 106.68) (xy 191.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85be0e97-2292-4717-b62d-34c19e1f0335")
+	)
+	(wire
+		(pts
 			(xy 264.16 55.88) (xy 270.51 55.88)
 		)
 		(stroke
@@ -8991,6 +9196,16 @@
 			(type default)
 		)
 		(uuid "98aabfa9-6283-4dd3-87e4-d62231265875")
+	)
+	(wire
+		(pts
+			(xy 207.01 105.41) (xy 207.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a633a59-f4e1-46ae-a009-90bf6b5c58d2")
 	)
 	(wire
 		(pts
@@ -9361,6 +9576,16 @@
 			(type default)
 		)
 		(uuid "b6f3ce2c-d9a9-4b7d-8176-1ef72a262bc9")
+	)
+	(wire
+		(pts
+			(xy 191.77 106.68) (xy 207.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70005cc-8194-47f3-9f0f-72b12b6399cc")
 	)
 	(wire
 		(pts
@@ -9961,6 +10186,16 @@
 			(type default)
 		)
 		(uuid "e8a67613-8eff-4788-bb16-f6e38cb58cfd")
+	)
+	(wire
+		(pts
+			(xy 184.15 106.68) (xy 184.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b16cbe-47ca-4954-afaa-729ba1f3e266")
 	)
 	(wire
 		(pts
@@ -12425,6 +12660,84 @@
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 199.39 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1bfe82fa-34a3-4192-8c4a-0270abee951f")
+		(property "Reference" "H3"
+			(at 194.564 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 203.2 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bc909f3-e2e4-4245-bc46-00f19780e991")
+		)
+		(instances
+			(project "rpi-canfd-pwr-hat"
+				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -23532,6 +23845,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 207.01 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d517adba-e879-463c-9ea9-e43f9c4cfcb9")
+		(property "Reference" "H4"
+			(at 202.184 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 210.82 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 207.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 207.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7450843c-eaed-4b0f-a594-ef2d78d98719")
+		)
+		(instances
+			(project "rpi-canfd-pwr-hat"
+				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 77.47 130.81 0)
 		(unit 1)
@@ -24168,6 +24559,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 191.77 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbffe8d4-5ef9-4d82-ad63-3fee834ffca0")
+		(property "Reference" "H2"
+			(at 186.944 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 195.58 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 191.77 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 191.77 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b5da4ab-fd7e-4e7e-b755-fbdb5fe70887")
+		)
+		(instances
+			(project "rpi-canfd-pwr-hat"
+				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 121.92 0)
 		(unit 1)
@@ -24365,6 +24834,84 @@
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 184.15 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2a10c43-3fbf-44ec-b50a-4530dff90c2f")
+		(property "Reference" "H1"
+			(at 179.324 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 187.96 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
+			(at 184.15 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 184.15 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70007186-71f3-41bc-aca1-26cd50f0178d")
+		)
+		(instances
+			(project "rpi-canfd-pwr-hat"
+				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -24727,6 +25274,84 @@
 			(project "rpi-canfd-pwr-hat"
 				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edd91a10-fee5-4bfd-95ed-3f9067882518")
+		(property "Reference" "#PWR0130"
+			(at 207.01 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 206.756 112.522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6de3f7a7-a9d7-4c64-b8ca-472751bddc83")
+		)
+		(instances
+			(project "rpi-canfd-pwr-hat"
+				(path "/35b6363d-fbe9-4c33-b2ab-05d20bd8dec5"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
