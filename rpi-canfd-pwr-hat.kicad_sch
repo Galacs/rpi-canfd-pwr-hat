@@ -13116,7 +13116,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
 			(at 82.8548 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13160,7 +13160,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C2918361"
+		(property "JLCPCB Part #" "C88818"
 			(at 83.82 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13171,7 +13171,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ROQANG"
+		(property "Manufacturer" "Rubycon"
 			(at 83.82 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13182,7 +13182,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "RVT1E221M0607"
+		(property "Manufacturer Part Number" "50TZV220M10X10.5"
 			(at 83.82 113.03 0)
 			(hide yes)
 			(show_name no)
